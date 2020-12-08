@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "HolyMoly server",
+  "main": "index.ts",
+  "scripts": {
+    "prisma-studio": "prisma studio",
+    "prisma-save": "prisma migrate save --experimental",
+    "prisma-up": "prisma migrate up --experimental",
+    "prisma-generate": "prisma generate",
+    "prisma": "npm run prisma-save && npm run prisma-up && npm run prisma-generate",
+    "dev": "ts-node-dev ./src/index.ts"
+  },
+  "author": "Hyukjoo",
+  "license": "MIT",
+  "dependencies": {
+    "@nexus/schema": "^0.18.0",
+    "@prisma/client": "^2.11.0",
+    "apollo-server": "^2.19.0",
+    "graphql": "^15.4.0",
+    "nexus-plugin-prisma": "^0.24.0"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.11.0",
+    "ts-node-dev": "^1.0.0",
+    "typescript": "^4.1.2"
+  },
+  "prisma": {
+    "schema": "prisma/schema.prisma"
+  }
+}

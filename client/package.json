@@ -1,0 +1,16 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "HolyMoly client",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next"
+  },
+  "author": "HJ",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^6.0.1",
+    "next": "^10.0.3",
+    "react": "^17.0.1"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "holymoly",
+  "version": "1.0.0",
+  "description": "Manage the holidays.",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hyoukjoo/HolyMoly.git"
+  },
+  "author": "Hyukjoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hyoukjoo/HolyMoly/issues"
+  },
+  "homepage": "https://github.com/Hyoukjoo/HolyMoly#readme",
+  "workspaces": [
+    "server",
+    "client"
+  ]
+}
